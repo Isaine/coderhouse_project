@@ -1,0 +1,9 @@
+1.- Debo crear el repositorio.
+2.- Clono el repositrio con: git clone URLDEGIT
+3.- Verifico mis archivos para ver que se creó la carpeta
+4.- Copio los archivos a subir por primera vez.
+5.- Git status para verficar que esten los archivos nuevos -> etsan de color rojo
+6.- Git add . o git add nombre_archivo para adherir los archivos a subir 
+7.- Git status para verificar los archivos a subir -> estan de color verde
+8.- Git commit -m "Comentario del cambio a hacer"
+9.- Git push origin master -> para subir todos al repositorio YA AQUI NO HAY VUELTA ATRAS
