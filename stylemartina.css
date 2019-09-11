@@ -1,0 +1,100 @@
+
+/* HOME */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content-vertical {
+    display: none;
+    position: absolute;
+    background-color: red;
+}
+
+.subnav-content a, .subnav-content-vertical a{
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover, .subnav-content-vertical a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content, .subnav:hover .subnav-content-vertical {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.degradado {
+    background: linear-gradient(90deg, #000, #ccc);
+    transform: translate(100px, 100px);
+   width: 400px;
+   height: 200px;
+   color: white;
+   animation: un_efecto 5s infinite;
+}
+
+@keyframes un_efecto{
+       0%{ width: 100px; }
+       25%{ width: 300px; }
+       50%{ width: 200px;
+       background-color: red; }
+       75%{ width: 300px;}
+       100%{ width: 100px;
+       background-color:green;}
+} /*esta llave cierra el un_efecto */
+
+button {
+   width: 100px;
+   height: 100px;
+   background: red;
+   transition: width 20s;
+   color: white;
+   margin-left: 70px;
+}
+
+div:hover {
+   width: 500px;
+}
