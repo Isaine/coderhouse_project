@@ -6,4 +6,5 @@
 6.- Git add . o git add nombre_archivo para adherir los archivos a subir 
 7.- Git status para verificar los archivos a subir -> estan de color verde
 8.- Git commit -m "Comentario del cambio a hacer"
-9.- Git push origin master -> para subir todos al repositorio YA AQUI NO HAY VUELTA ATRAS
+9.- Git push origin master -> para subir todos al repositorio YA AQUI NO HAY VUELTA ATRA
+10.- Este paso es de test para crear una rama
